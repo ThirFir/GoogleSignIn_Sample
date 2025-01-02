@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "GoogleSignIn"
 include(":app")
- 
+include(":feature:authentication")
+include(":domain")
+include(":data")
